@@ -1,0 +1,129 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "LOREKEEPER Help Center",
+  "logo": {
+    "dark": "/logo/lorekeeper-dark.svg",
+    "light": "/logo/lorekeeper-light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#c4a456",
+    "light": "#e6d590",
+    "dark": "#8a7a3f",
+    "anchors": {
+      "from": "#c4a456",
+      "to": "#9b59b6"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Play Now",
+      "url": "https://lore-keeper.com/register"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Start Free",
+    "url": "https://lore-keeper.com/register"
+  },
+  "tabs": [
+    {
+      "name": "Gameplay Guide",
+      "url": "gameplay"
+    },
+    {
+      "name": "FAQ",
+      "url": "faq"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Play LOREKEEPER",
+      "icon": "gamepad",
+      "url": "https://lore-keeper.com"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.gg/lorekeeper"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/what-is-lorekeeper",
+        "getting-started/first-campaign",
+        "getting-started/turns-and-credits",
+        "getting-started/first-combat",
+        "getting-started/choosing-world-and-character"
+      ]
+    },
+    {
+      "group": "Gameplay Guide",
+      "pages": [
+        "gameplay/how-the-ai-dm-works",
+        "gameplay/combat-system",
+        "gameplay/inventory-and-equipment",
+        "gameplay/spellbook-and-magic",
+        "gameplay/npcs-and-relationships",
+        "gameplay/quests-and-objectives",
+        "gameplay/character-death",
+        "gameplay/session-recap",
+        "gameplay/karmic-dice",
+        "gameplay/scene-types"
+      ]
+    },
+    {
+      "group": "Multiplayer",
+      "pages": [
+        "multiplayer/invite-friends",
+        "multiplayer/roles",
+        "multiplayer/shared-resources",
+        "multiplayer/voting-system",
+        "multiplayer/party-mode"
+      ]
+    },
+    {
+      "group": "Account & Billing",
+      "pages": [
+        "billing/plans-compared",
+        "billing/daily-turns",
+        "billing/credits",
+        "billing/subscribe-cancel",
+        "billing/referral-program"
+      ]
+    },
+    {
+      "group": "World Building",
+      "pages": [
+        "world-building/community-worlds",
+        "world-building/create-your-world",
+        "world-building/races-classes-custom",
+        "world-building/genres-and-styles",
+        "world-building/sharing-your-world"
+      ]
+    },
+    {
+      "group": "FAQ",
+      "pages": [
+        "faq/what-ai-model",
+        "faq/is-my-data-private",
+        "faq/mobile-support",
+        "faq/supported-languages",
+        "faq/report-a-bug"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "discord": "https://discord.gg/lorekeeper",
+    "github": "https://github.com/lorekeeper"
+  },
+  "backgroundImage": "/images/background.png",
+  "seo": {
+    "indexHiddenPages": false
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": false
+  }
+}

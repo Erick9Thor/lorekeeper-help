@@ -1,0 +1,39 @@
+---
+title: "How the Voting System Works"
+description: "Understand how LOREKEEPER's voting system resolves party decisions in multiplayer campaigns."
+icon: "vote"
+---
+
+## Making Decisions as a Group
+
+When your party faces a critical choice, LOREKEEPER uses a voting system to let every player have a say. This keeps the game fair and gives everyone agency in shaping the story.
+
+## When Voting Is Triggered
+
+The AI Dungeon Master triggers a vote when the party encounters a decision that affects the whole group. Examples include choosing which path to take, whether to fight or negotiate, or how to spend shared resources. Not every decision requires a vote -- only significant branching moments.
+
+## How Votes Are Resolved
+
+### Consensus
+
+If all players agree on the same option, the decision is made immediately and the story continues.
+
+### Majority
+
+When players disagree, the option with the most votes wins. The AI DM narrates the outcome based on the majority decision.
+
+### Tie with Timeout
+
+If votes are evenly split, a configurable timeout begins. Players have a window to change their vote or discuss. If the tie persists when the timer expires, the Leader's vote breaks the tie.
+
+<Tip>The Leader role carries extra weight in tied votes. If your group often disagrees, having a trusted Leader helps keep the story moving.</Tip>
+
+## Configurable Timeout
+
+The campaign Leader can adjust the voting timeout duration from the campaign settings. Shorter timeouts keep the pace fast. Longer timeouts give the group more time to deliberate.
+
+## Email Reminders
+
+If a player has not voted and the timeout is approaching, LOREKEEPER sends an email reminder prompting them to cast their vote. This prevents one inactive player from stalling the entire party.
+
+<Note>Email reminders are sent automatically. Players should check their inbox if they step away during an active vote.</Note>
